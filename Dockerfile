@@ -28,4 +28,6 @@ COPY harPool /app/harPool
 # 暴露端口
 EXPOSE 8080
 
+ENV Authorization=gptH32w9X5nGE2Ux3eKX
+
 CMD ["/app/aurora"]
